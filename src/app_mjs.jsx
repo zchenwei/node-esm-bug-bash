@@ -13,7 +13,7 @@ import '@aws-amplify/ui-react/styles.css';
 const App = () => {
   return (
     // test direction="rtl" on ThemeProvider
-    <ThemeProvider direction="rtl">
+    <ThemeProvider>
       <SliderField label="Slider" max={100} />
       <Expander type="single">
         <ExpanderItem title="Is it accessible?" value="demo-item-1">
